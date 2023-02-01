@@ -72,7 +72,7 @@ def getIndexationStatus(apiKey, apiEndpointUrl, url):
         sys.exit()
  
 
-sitemapUrl = "https://thelinuxbible.com/sitemap.xml"
+sitemapUrl = "https://example.com/sitemap.xml"
 
 urls = getSitemapUrls(sitemapUrl)
 
@@ -84,7 +84,7 @@ else:
  
     for url in urls:
 
-        apiKey = "AIzaSyAiKH2ZnzYW09upSVVb2kh41cCIgDcHTuA"
+        apiKey = ""
 
         apiEndpointUrl = "https://searchconsole.googleapis.com/v1/urlTestingTools/mobileFriendlyTest:run?key=" + str(apiKey)
 
